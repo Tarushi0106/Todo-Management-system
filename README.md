@@ -45,7 +45,7 @@ To run  Task Management Application locally, follow these steps:
 2. Unzip the repository and Navigate to the backend directory:
    ```bash
    cd backend
-3. Create a .env file and paste the following line into it: `DB_URI="mongodb+srv://mohamedmoataz:test1234@cluster0.p4cn3ff.mongodb.net/task-management?retryWrites=true&w=majority&appName=Cluster0"`
+3. Create a .env file and paste the following line into it: DB_URI='mongodb+srv://FAQ:FAQ@faqs.qhuvg.mongodb.net/?retryWrites=true&w=majority&appName=FAQs'
 4. Install the necessary packages: `npm i`
 5. Open a new terminal window.
 5. Navigate to the frontend directory : `cd frontend`
