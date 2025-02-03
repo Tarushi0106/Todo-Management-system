@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply p-2 rounded-md focus:border-2 focus:border-solid focus:border-primary focus:outline-none;
+}
+.button-primary {
+    @apply p-3 bg-primary rounded text-gray-800 text-lg hover:bg-primaryDark hover:text-white
+}
+.form {
+    @apply flex flex-col  gap-7 bg-form p-7 rounded-lg w-full mb-4
+}
+.input-label-parent{
+    @apply flex flex-col gap-1
+}
+.label-form{
+    @apply text-gray-500
+}
